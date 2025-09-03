@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Card Component</title>      
+        <style>
+            .card-container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                max-width: 1200px;
+                width: 100%;
+            }
+            .card{
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow:0 4px 8px black;
+                padding: 15px;
+                flex-basis: 300px;
+                flex-grow: 1;
+                max-width: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                overflow: hidden;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/pngegg7.png" alt="Cat 1">
+                <h3>Cat Title One</h3>
+                <p>This is a short description for Cat One</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="card">
+                <img src="images/pngegg3.png" alt="Cat 2">
+                <h3>Cat Title Two</h3>
+                <p>This is a short description for Cat Two</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="card">
+                <img src="images/pngegg.png" alt="Cat 3">
+                <h3>Cat Title Three</h3>
+                <p>This is a short description for Cat Three</p>
+                <a href="#" class="btn">Read More</a>
+            </div><div class="card">
+                <img src="images/pngegg4.png" alt="Cat 4">
+                <h3>Cat Title Four</h3>
+                <p>This is a short description for Cat Four</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </body>
+</html>

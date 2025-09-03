@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <style>
+            a {
+                color: BLUE;
+                text-decoration: none;
+            }
+            a:hover{
+                color: red;
+                text-decoration: underline;
+                font-weight: bold;
+
+            }
+            a:visited{
+                color: blueviolet;
+
+            }
+            a:active{
+                color: green;
+
+            }
+            div p:first-child{
+                background-color: lightyellow;
+                padding: 10px;
+                border: 1px dashed orange;
+
+            }
+            div p:last-child{
+                background-color: lightcyan;
+                padding: 10px;
+                border: 1px dashed blue;
+
+            }
+            input[type="text"] :focus {
+                border-color: green;
+                box-shadow: 0 0 5px rgba(76,175,80,0.5);
+                outline: none;
+
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <h1>Pseudo-classes Demo</h1>
+
+
+        <h2>ลิงก์</h2>
+        <p>ลองวางเมาส์เหนือลิงก์และคลิกดู:</p>
+        <a href="https://www.google.com" traget="_blank">Google</a><br>
+        <a href="https://www.w3schools.com" traget="_blank">W3schools</a><br>
+        <a href="#">ลิงก์ที่ไม่ไปไหน</a>
+
+        <h2>ย่อหน้าใน Div</h2>
+        <div>
+            <p>ย่อหน้านี้คือ **First child** มีสีเหลือง</p>
+            <p>ย่อหน้านี้ปกติ</p>
+            <span>นี่คือ span</span>
+            <p>ย่อหน้านี้คือ **last child** มีสีฟ้า</p>
+        </div>
+        
+        <h2>ช่องกรอกข้อมูล</h2>
+        <label for="username">ชื่อผู้ใช้:</label>
+        <input type="text" id="username" placeholder="พิมพ์ชื่อของคุณ"><br><br>
+        <label for="email">อีเมล:</label>
+        <input type="email" id="email" placeholder="พิมพ์อีเมลของคุณ">
+
+    </body>
+</html>
