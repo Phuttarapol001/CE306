@@ -12,7 +12,7 @@
 onViewDetails คือตัวปุ่ม "ดูรายละเอียด"
 กำหนด skill เป็น array level เป็น optional
 
-<!-- "<img src={user.avatarUrl}>" -->
+ "img src={user.avatarUrl}"
 เป็นตัวแสดงรูปโปรไฟล์
 ตัว status-dot เอาไว่้บอกว่า user กำลังออนไลน์หรือ ออฟไลน์
 ตัว SkillTag เอาไว้บอก ตัวskill
